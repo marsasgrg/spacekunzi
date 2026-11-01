@@ -221,6 +221,7 @@
 		"civic_ruthless_competition"
 	}
 	origin="origin_default"
+	flags = {"HCorp_flag"}
 }
 "Vega Canis Corporation"=
 {
@@ -379,4 +380,5 @@
 		"civic_worker_coop"
 	}
 	origin="origin_default"
+	flags = {"VCC_flag"}
 }

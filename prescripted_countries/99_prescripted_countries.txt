@@ -5,6 +5,7 @@
 	ship_prefix= "UNITED_TEYPS_PREFIX"
 	species=
 	{
+		species_bio = "SADALAR_BIO"
 		class="HUM"
 		portrait="humanoid_04"
 		name = "SADALAR_SINGULAR"

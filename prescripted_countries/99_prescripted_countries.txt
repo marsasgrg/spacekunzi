@@ -85,7 +85,7 @@
 	species=
 	{
 		class="HUM"
-		portrait="humanoid_02"
+		portrait="humanoid_hp_12"
 		species_name=
 		{
 			key="Iratxoan"
@@ -201,7 +201,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="humanoid_02_male_01"
+		portrait="humanoid_hp_12_male_01"
 		texture=0
 		evolution_mask=0
 		attachment=0

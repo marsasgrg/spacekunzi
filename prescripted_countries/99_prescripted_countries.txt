@@ -1,81 +1,6 @@
-﻿{
-	name = "UNITED_TEYPS"
-    adjective = "UNITED_TEYPS_ADJ"
-    spawn_enabled = always
-	ship_prefix= "UNITED_TEYPS_PREFIX"
-	species=
-	{
-		species_bio = "The Khi-Sadalar have, over the millenia of their existence fought wars and forged alliances, yet a single power has not emerged, perhaps due to the fact larger identities could not supplant clan bonds. In recent centuries however, the improvements of underwater travel technology have facilitated economic cooperation, and eventually a trade union of the Khi-Sadalar would form. This trade union would over decades grow in it's cooperation, especially in the field of research. Eventually, it ended up being the biggest contributor to the unification into an elective monarchic confederation/federation, the United Teyps of Khidun'e and the invention of space flight, which has for now culminated with the planting of our dark blue flag [image attached] on a small rocky planet of our system Tulgdun'e, although recent breakthroughs may bring us to the stars.\nHumanoid amphibians, similar to Witcher's drowners in appearance, but sentient and intelligent."
-		class="HUM"
-		portrait="humanoid_04"
-		name = "SADALAR_SINGULAR"
-        plural = "SADALAR_PLURAL"
-        adjective = "SADALAR_ADJ"
-		name_list="AQUATIC1"
-		gender=indeterminable
-		trait="trait_organic"
-		trait="trait_sedentary"
-		trait="trait_communal"
-		trait="trait_traditional"
-		trait="trait_thrifty"
-		trait="trait_slow_learners"
-	}
-	authority ="auth_democratic"
-	government = gov_direct_democracy
-
-	planet_name = "KHIDUNE"
-	planet_class = "pc_ocean"
-	system_name = KHIDUNE_SYST
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="aquatic"
-			file="aquatic_12.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors=
-		{
-			"blue"
-			"blue"
-			"null"
-			"null"
-			"indigo"
-			"dark_brown"
-		}
-	}
-	ruler=
-	{
-		gender=indeterminable
-		name=UNITED_TEYPS_LEADER
-		portrait="humanoid_04_male_01"
-		texture=0
-		clothes=5
-		ruler_title= UNITED_TEYPS_LEADER_TITLE
-		custom_biography= UNITED_TEYPS_LEADER_BIO
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_materialist"
-	civics=
-	{
-		"civic_parliamentary_system"
-		"civic_idealistic_foundation"
-	}
-	origin="origin_default"
-
-	flags = {"UTK_flag"}
-}
-
-"Handiagoa Conglomerate"=
+﻿"Handiagoa Conglomerate"=
 {
+	flags = {spawn_HCong_flag}
 	key="Handiagoa Conglomerate"
 	ship_prefix=
 	{
@@ -224,6 +149,7 @@
 }
 "Vega Canis Corporation"=
 {
+	flags = {spawn_VCC_flag}
 	key="Vega Canis Corporation"
 	ship_prefix=
 	{
@@ -379,4 +305,80 @@
 		"civic_worker_coop"
 	}
 	origin="origin_default"
+}
+
+{
+	flags = {"spawn_UTK_flag"}
+	name = "UNITED_TEYPS"
+    adjective = "UNITED_TEYPS_ADJ"
+    spawn_enabled = always
+	ship_prefix= "UNITED_TEYPS_PREFIX"
+	species=
+	{
+		species_bio = "The Khi-Sadalar have, over the millenia of their existence fought wars and forged alliances, yet a single power has not emerged, perhaps due to the fact larger identities could not supplant clan bonds. In recent centuries however, the improvements of underwater travel technology have facilitated economic cooperation, and eventually a trade union of the Khi-Sadalar would form. This trade union would over decades grow in it's cooperation, especially in the field of research. Eventually, it ended up being the biggest contributor to the unification into an elective monarchic confederation/federation, the United Teyps of Khidun'e and the invention of space flight, which has for now culminated with the planting of our dark blue flag [image attached] on a small rocky planet of our system Tulgdun'e, although recent breakthroughs may bring us to the stars.\nHumanoid amphibians, similar to Witcher's drowners in appearance, but sentient and intelligent."
+		class="HUM"
+		portrait="humanoid_04"
+		name = "SADALAR_SINGULAR"
+        plural = "SADALAR_PLURAL"
+        adjective = "SADALAR_ADJ"
+		name_list="AQUATIC1"
+		gender=indeterminable
+		trait="trait_organic"
+		trait="trait_sedentary"
+		trait="trait_communal"
+		trait="trait_traditional"
+		trait="trait_thrifty"
+		trait="trait_slow_learners"
+	}
+	authority ="auth_democratic"
+	government = gov_direct_democracy
+
+	planet_name = "KHIDUNE"
+	planet_class = "pc_ocean"
+	system_name = KHIDUNE_SYST
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="aquatic"
+			file="aquatic_12.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"blue"
+			"blue"
+			"null"
+			"null"
+			"indigo"
+			"dark_brown"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=UNITED_TEYPS_LEADER
+		portrait="humanoid_04_male_01"
+		texture=0
+		clothes=5
+		ruler_title= UNITED_TEYPS_LEADER_TITLE
+		custom_biography= UNITED_TEYPS_LEADER_BIO
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_parliamentary_system"
+		"civic_idealistic_foundation"
+	}
+	origin="origin_default"
+
 }

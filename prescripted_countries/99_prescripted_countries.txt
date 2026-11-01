@@ -10,7 +10,6 @@
 		name = "SADALAR_SINGULAR"
         plural = "SADALAR_PLURAL"
         adjective = "SADALAR_ADJ"
-		species_bio = "SADALAR_BIO"
 		name_list="AQUATIC1"
 		gender=indeterminable
 		trait="trait_organic"

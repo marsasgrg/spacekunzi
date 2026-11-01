@@ -5,7 +5,7 @@
 	ship_prefix= "UNITED_TEYPS_PREFIX"
 	species=
 	{
-		species_bio = "SADALAR_BIO"
+		species_bio = "The Khi-Sadalar have, over the millenia of their existence fought wars and forged alliances, yet a single power has not emerged, perhaps due to the fact larger identities could not supplant clan bonds. In recent centuries however, the improvements of underwater travel technology have facilitated economic cooperation, and eventually a trade union of the Khi-Sadalar would form. This trade union would over decades grow in it's cooperation, especially in the field of research. Eventually, it ended up being the biggest contributor to the unification into an elective monarchic confederation/federation, the United Teyps of Khidun'e and the invention of space flight, which has for now culminated with the planting of our dark blue flag [image attached] on a small rocky planet of our system Tulgdun'e, although recent breakthroughs may bring us to the stars.\nHumanoid amphibians, similar to Witcher's drowners in appearance, but sentient and intelligent."
 		class="HUM"
 		portrait="humanoid_04"
 		name = "SADALAR_SINGULAR"

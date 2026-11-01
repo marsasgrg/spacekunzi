@@ -73,3 +73,310 @@
 
 	flags = {"UTK_flag"}
 }
+
+"Handiagoa Conglomerate"=
+{
+	key="Handiagoa Conglomerate"
+	ship_prefix=
+	{
+		key="HCS"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_02"
+		species_name=
+		{
+			key="Iratxoan"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Iratxoa"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Iratxoa"
+			literal=yes
+		}
+		species_bio="After decades of consolidation and unrelenting corporate expansion, the once-fractured world of Lehenik was united under the leadership of a single megacorporation, the great Handiagoa Conglomerate. No longer were there concepts of nations or individual ideologies; now it's only the conglomerate. Then the planet entered a period of mass urbanization, terraforming the entire surface into vast industrial and development zones. As  heavy industrialization continued, all of the resources nearest to the surface were completely exhausted, leaving only resources found in the deeper layers of the crust. For this reason, the conglomerate has invested heavily in space exploration, hoping to find more resources in the vastness of space."
+		name_list="HUM2"
+		gender=not_set
+		trait="trait_organic"
+		trait="trait_talented"
+		trait="trait_adaptive"
+		trait="trait_quarrelsome"
+	}
+	name=
+	{
+		key="Handiagoa Conglomerate"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Handiagoa"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	is_nomadic=no
+	planet_name=
+	{
+		key="Lehenik"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="Lurrak"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="corporate"
+			file="corporate_01.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_24.dds"
+		}
+		colors=
+		{
+			"intense_purple"
+			"ochre_brown"
+			"null"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUM2_CHR_Tupra"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUM2_CHR_Vun"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="humanoid_02_male_01"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_brand_loyalty"
+		"civic_ruthless_competition"
+	}
+	origin="origin_default"
+}
+"Vega Canis Corporation"=
+{
+	key="Vega Canis Corporation"
+	ship_prefix=
+	{
+		key=""
+	}
+	species=
+	{
+		class="MAM"
+		portrait="mam6"
+		species_name=
+		{
+			key="Vega Cani Colonial"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Vega Cani Colonial"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Vega Cani Colonial"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="In the wake of a traumatic migration from their homeworld out into deepspace, the original colonists of the binary Vega-Canis star system had to adapt to the harsh conditions of their new homeworld. Covered in aggressive jungle and with little resources the surface of Vega 3 inspired the colonials to evolve their society over the many decades it took to get back into space. "
+		name_list="HUMAN3"
+		gender=female
+		trait="trait_organic"
+		trait="trait_industrious"
+	}
+	name=
+	{
+		key="Vega Canis Corporation"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Vega Canis "
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_worker_coop"
+	is_nomadic=no
+	planet_name=
+	{
+		key="Vega"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="Vega Canis"
+		literal=yes
+	}
+	initializer="custom_starting_init_04"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="flag_human_13.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_13.dds"
+		}
+		colors=
+		{
+			"desert_yellow"
+			"light_orange"
+			"null"
+			"orange"
+			"null"
+			"null"
+		}
+		use_ship_color=yes
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Paulla"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Gargonius"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="mam6"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_industrialist"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_franchising"
+		"civic_worker_coop"
+	}
+	origin="origin_default"
+}

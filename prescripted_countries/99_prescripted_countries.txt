@@ -382,3 +382,175 @@
 	origin="origin_default"
 	flags = {"VCC_flag"}
 }
+
+
+"Atramentarius Authorship"=
+{
+	key="Atramentarius Authorship"
+	ship_prefix=
+	{
+		key="AAS"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_03"
+		species_name=
+		{
+			key="Adumperitus"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Adumperitus"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Adumperitus"
+			literal=yes
+		}
+		species_bio="The Adumperitus are a higher class of people, those who underwent the process of Impriming, but retained their former skills and abilities, capable of using and applying them in the world. Most of them were either skilled tacticians, scientists and industrialists. Forming the major 3 factions within the Authorship, they represent the major focus points of the empire, that being military, technology and industry. Bickering amongst them all is constant, battling for manpower, resources and funds to further their own personal agendas, but even they must follow the rules of The Bureaucrat. The one who leads the Authorship with an efficient and ruthless hand, driving the future towards his own unknown goal."
+		name_list="HUMAN3"
+		gender=not_set
+		trait="trait_organic"
+		trait="trait_ingenious"
+	}
+	secondary_species=
+	{
+		class="MAM"
+		portrait="mam8"
+		species_name=
+		{
+			key="Adumbratus"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Adumbratus"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Adumbratus"
+			literal=yes
+		}
+		species_bio="The Adumbratus are a people lost to the meaning of life. Husks of their former selves, these people underwent the procedure known as Impriming. Their living bodies and souls underwent through torturous soul corruption and mutilating physical ink mutation, turning them into primarily drone-esque followers. Capable of doing menial labour and following general orders and directions, the vast number of this populace find themselves working and producing for their overlord and consuming slop produced for them to keep their bodies functioning at the basest of levels. They've no culture, no faith, no will to hold onto. They can only follow and carry out orders that have been made for them."
+		name_list="HUMAN3"
+		gender=not_set
+		trait="trait_organic"
+		trait="trait_syncretic_proles"
+		trait="trait_conformists"
+		trait="trait_repugnant"
+		trait="trait_rapid_breeders"
+		trait="trait_weak"
+	}
+	name=
+	{
+		key="Atramentarius Authorship"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Atramentarius "
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_totalitarian_regime"
+	is_nomadic=no
+	planet_name=
+	{
+		key="Atramentarius Planet"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="Atramentarius Star"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="domination"
+			file="domination_1.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"cloud_purple"
+			"null"
+			"null"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="???"
+				literal=yes
+			}
+		}
+		portrait="humanoid_03_male_01"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Bureaucrat"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="Bureaucrat"
+			literal=yes
+		}
+		custom_biography=
+		{
+			key="The Bureaucrat is simply the only name known for this person, having the original removed either through horrific experimentation, information restriction or brutal suppression. He leads the planet with an Iron Fist, constantly trying to find ways to advance his empire and expand it further than just the current planet. Surrounding himself with loyal soldiers and underlings, he carefully and efficiently manages the three major factions under his rule. Nobody knows when his rule began or how he got to his position, for it is believed that he was here far longer than anybody currently ever has been. He will figure out his immediate problems soon, and when he does, the galaxy will be ripe for his taking."
+			literal=yes
+		}
+		trait="leader_trait_spycraft"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_cutthroat_politics"
+		"civic_byzantine_bureaucracy"
+	}
+	origin="origin_syncretic_evolution"
+}

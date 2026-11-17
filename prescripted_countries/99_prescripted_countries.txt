@@ -553,4 +553,165 @@
 		"civic_byzantine_bureaucracy"
 	}
 	origin="origin_syncretic_evolution"
+	flags = {"atramentarius_flag"}
+}
+
+
+# would benefit from Machine Age
+"Brachyuran Mandate"=
+{
+	key="Brachyuran Mandate"
+	ship_prefix=
+	{
+		key="BMS"
+		literal=yes
+	}
+	species=
+	{
+		class="MOL"
+		portrait="mol15"
+		species_name=
+		{
+			key="Decapoda-Cyborgia"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Decapoda-Cyborgia"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Decapoda-Cyborgia"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Originating from the abyssal deep ocean trenches of Thalassa prime, the Crustacean tribes fought each other over geothermal heat vents. Survival was defined by heavily armor, interspecies canabalism, and tribal hierarchy. This competition led to the development of early industrialization utilizing volcanic vents. As the species gradually unified and left the deep ocean vents to establish surface factories, biological molting became a lethal "
+		name_list="MOL4"
+		gender=not_set
+		trait="trait_organic"
+		trait="trait_humanoid_existential_iteroparity"
+	}
+	name=
+	{
+		key="Brachyuran Mandate"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Brachyuran "
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	is_nomadic=no
+	planet_name=
+	{
+		key="Thalassa Prime"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Nereus"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="aquatic"
+			file="aquatic_08.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"intense_red"
+			"null"
+			"null"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MOL4_CHR_Roggesh"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MOL4_CHR_Saltmarsh"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="mol15"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_crafters"
+		"civic_heroic_tales"
+	}
+	origin="origin_default"
+	flags = {"brachyura_flag"}
 }
